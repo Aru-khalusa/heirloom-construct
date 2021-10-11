@@ -1,0 +1,505 @@
+body * {
+    font-family: Roboto, Lato, Helvetica, sans-serif;
+    max-width: 100%;
+    max-height: max-content;
+}
+
+.logo {
+    width: 150px;
+    height: 75px;
+}
+
+.navbar-toggler-icon {
+    color: #ff6d00 !important;
+}
+
+.nav-item {
+    padding: 5px 15px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #042e9c !important;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #ff6d00 !important;
+    border-radius: 10px;
+}
+
+.dropdown-item {
+    color: #0a3cdd !important;
+    width: 250px !important;
+}
+
+.dropdown-item:hover {
+    color: #ff6d00 !important;
+}
+
+.dropdown-item:focus {
+    color: #8be921 !important;
+    background-color: #ff6d00 !important;
+}
+
+#home img{
+    height: 535px !important;
+}
+
+#btn-carousel {
+    background-color: rgba(255,255,255,1) !important;
+    border: #000000;
+}
+
+#btn-carousel:hover {
+    transform: scale(1.03);
+}
+
+#btn-link {
+    color: #042e9c;
+    text-decoration: none;
+}
+
+#btn-link:hover {
+    color: #ff6d00;
+    text-decoration: underline;
+    text-decoration-color: #042e04;
+}
+
+#img {
+    width: 100%;
+    /* background: #000000; */
+    overflow: hidden;
+}
+
+/* #img img {
+    object-fit: fill;
+    opacity: 0.5;
+} */
+
+.carousel img {
+    min-height: 90vh;
+}
+
+#img .carousel-caption {
+    top: 300px !important;
+    font-family: "Lato", sans-serif !important;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.carousel-control-prev {
+    top: 40%;
+    color: #fff;
+    opacity: 1;
+}
+
+.carousel-control-prev:hover {
+    color: #ff6d00 !important;
+    transform: scale(1.008) !important;
+}
+
+.carousel-control-next {
+    top: 40%;
+    color: #fff;
+    opacity: 1;
+}
+
+.carousel-control-next:hover {
+    color: #ff6d00 !important;
+    transform: scale(1.008) !important;
+}
+
+/* about us */
+#about-us {
+    font-family: Verdana, Helvetica, sans-serif !important;
+    background-color: rgba(255, 123, 0, 0.17);
+    /* background-image: url('..//'); */
+}
+
+#about-us h1, #services h1, #portfolio h1 {
+    font-size: 38px;
+    text-align: center;
+    color: #042e9c;
+    padding-top: 14px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about-us hr, #services hr, #portfolio hr {
+    width: 106px;
+    margin: auto;
+    border: 2px solid #020201;
+    margin-bottom: 30px;
+    color: #020201;
+    position: relative;
+    animation-name: example;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+    from {width: 20px;}
+    to {width: 106px;}
+}
+
+#heirloom {
+    height: 500px;
+    width: 500px;
+    max-width: 550px;
+}
+
+#heirloom img {
+    width: 450px;
+    height: 400px;
+    margin: 36px 20px 0 20px;
+    clear: both;
+    border-radius: 50%;
+}
+
+#about-us p {
+    font-size: 1.4em;
+    font-family: Roboto, helvetica, sans-serif;
+    padding: 20px 0px 20px 20px;
+}
+
+/* Services */
+
+#services {
+    margin-left: 24px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#services .card {
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+#services .card:hover {
+    transform: scale(1.02);
+    color: #ff6d00;
+    text-decoration: dashed;
+    box-shadow: 2px 2px #00000080;
+}
+
+#services img {
+    height: 300px;
+}
+
+.horizontal-line {
+    color: #000000;
+    border: 2px dotted #000000;
+    width: 96%;
+    margin: auto;
+}
+
+@media (max-width:400px) {
+    #services h3{
+        color: #042e9c;
+    }
+}
+
+/* Portfolio */
+
+#portfolio {
+    margin-top: 10px;
+    margin-bottom: 350px !important;
+}
+
+#portfolio .card {
+    transform: scale(0.9);
+    transform: translateY(50px);
+    opacity: 0.5;
+    box-shadow: 2px 0 5px 7px #000a24be;
+}
+
+#portfolio .card:hover {
+    background: linear-gradient(to bottom right, rgba(37, 108, 241, 0.473), rgba(223,202,5,0.5));
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: translateY(0);
+    opacity: 1;
+    box-shadow: 2px 0 3px 3px #ff6f00bb;
+}
+
+#portfolio .card-title {
+    border-bottom: 1px solid #070707;
+    font-size: medium;
+    padding: 7px !important;
+    display: ruby-text-container;
+}
+
+#portfolio .card-title:hover {
+    color: #396bc9;
+}
+
+#portfolio .card-text {
+    color: #ff6f00;
+    font-size: smaller;
+}
+
+/* Contact Us */
+
+#contact {
+    background-color: #020c1b;
+    color: #ffffff;
+    height: 450px;
+    width: 100% !important;
+    margin-top: -250px;
+}
+
+#title {
+    text-transform: capitalize;
+}
+
+#text {
+    padding-left: 40px;
+    font-size: larger;
+}
+
+#text a {
+    color: #fff;
+    padding: 10px 5px;
+}
+
+#text a:hover {
+    transform: scale(1.01);
+}
+
+#text strong {
+    color: rgb(255, 199, 153);
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+#map {
+    padding-top: 40px;
+    width: 95%;
+    margin-left: 20px;
+}
+
+#footer {
+    color: #ff6f00;
+}
+
+.bi-chevron-up {
+    float: right !important;
+    color: #ffffff;
+    background-color: #ff6d00;
+    font-size: 28px;
+    /* width: 40px; */
+    /* height: 24px; */
+    text-align: right;
+    margin-top: -48px;
+    padding: 0 5px;
+    margin-right: 16px;
+    /* border: 1px solid #ff6d00; */
+    border-radius: 30px;
+    position: fixed;
+}
+
+.bi-chevron-up:hover {
+    color: #ff6d00;
+    background-color: #ffffff;
+}
+
+
+/* Media Screen */
+
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #about-us .container {
+        height: 1200px;
+    }
+
+    #about-us p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    #heirloom img {
+        max-width: 300px;
+    }
+
+    #portfolio .card {
+        margin: 40px 0 140px 0;
+        box-shadow: none !important;
+        border: none;
+        height: 200px;
+        display: flex;
+    }
+
+    #portfolio .card-title {
+        border-bottom: none;
+        font-size: 2rem;
+    }
+
+    #portfolio .card-text {
+        font-size: large;
+    }
+
+    #portfolio .btn {
+        width: 100%;
+        background-color: #042e9c;
+        color: white;
+        font-weight: bolder;
+    }
+
+    #portfolio .btn:focus {
+        color: #ff6d00;
+        background-color: #fff;
+    }
+
+    #contact {
+        height:760px !important;
+        background-color: #000a24 !important;
+        margin-bottom: none;
+    }
+
+    #title {
+        font-style: oblique;
+        text-decoration: underline;
+        font-size: 2rem;
+        color: #ff6f00;
+    }
+
+    #text {
+        text-align: center;
+    }
+
+    #map {
+        width: 90% !important;
+        margin-left: 5%;
+    }
+
+    #footer {
+        padding-top: 20px;
+        color: #ff6d00;
+    }
+}
+
+@media screen and (max-width: 991px)  {
+    #portfolio .card {
+        transform: translateY(0) !important;
+        opacity: 1 !important;
+        padding: 20px !important;
+        height: 320px !important;
+        display: flex;
+        box-shadow: 2px 0 2px 2px #2725245d;
+    }
+
+    #portfolio .card:hover {
+        transform: translateY(0) !important;
+        opacity: 1 !important;
+        display: none;
+    }
+
+    #contact {
+        height: 800px !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #portfolio .card {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    #heirloom img {
+        border-radius: 20px !important;
+        width: 300px;
+        padding: 10px 30px;
+        margin-bottom: 0;
+    }
+
+    #about-us .container {
+        height: 1500px;
+    }
+}
+
+@media (max-width: 400px) {
+    #about-us {
+        height: auto;
+    }
+    #about-us .container{
+        height: 1400px !important;
+    }
+    #about-us svg {
+        display: none;
+    }
+    #about-us h1 {
+        margin-top: 16px;
+    }
+    #about-us img {
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+    }
+    #about-us p {
+        line-height: 2rem;
+        text-align: justify !important;
+    }
+    #about-us #about-text {
+        margin-top: -30px !important;
+        padding-top: 0%;
+    }
+    #portfolio h1 {
+        margin-bottom: -40px !important;
+    }
+    #contact {
+        height: 900px !important;
+        width: 414px !important;
+    }
+}
+
+@media (max-width: 416px) {
+    #portfolio .card {
+        margin-bottom: 60px !important;
+        margin-top: 60px !important;
+    }
+    #portfolio h2 {
+        color: #042e9c;
+    }
+    #contact {
+        height: 900px !important;
+    }    
+    #contact p {
+        text-align: left;
+    }
+}
+
+@media (max-width:780px) {
+    .carousel-item img {
+        width: 768px !important;
+    }
+    #about-us img {
+        margin: auto;
+    }
+    #about-us #about-text {
+        margin-bottom: 40px !important;
+        margin: auto;
+    }
+    #services  h3 {
+        color: #042e9c;
+    }
+    #portfolio .card {
+        min-height: 350px !important;
+    }
+    #contact {
+        height: fit-content !important;
+        display: block;
+    }
+    #contact h2 {
+        color: #ff6d00;
+    }
+}
